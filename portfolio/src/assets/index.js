@@ -3,6 +3,7 @@ import homeImage from './homeImage.png'
 import book from './book.png'
 import laptop from './laptop.png'
 import skill from './skill.png'
+import matt from './mattDP.jpg'
 
 import angular from './angular.png'
 import ionic from './ionic.png'
@@ -34,6 +35,7 @@ import linkdin from './LinkedIn.png'
 export {
     logo,cognizantLogo,wellsLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
     homeImage,aflacLogo,wiuLogo,
+    matt,
     book,
     laptop,
     skill,

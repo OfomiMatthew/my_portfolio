@@ -34,7 +34,7 @@ const Nav = () => {
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
-              className="w-6 h-6 cursor-pointer"
+              className="w-6 h-6 cursor-pointer "
               onClick={() => {
                 setToggle(true);
               }}
@@ -66,7 +66,7 @@ const Nav = () => {
           )}
 
           {toggle ? (
-            <ul className="flex flex-col mt-8 p-4 bg-gray-500 rounded-2xl">
+            <ul className="flex flex-col mt-8 p-4 bg-gray-500 rounded-2xl absolute right-4">
               <li className="p-2 ml-6 transition-all duration-350 ease-in-out hover:scale-110 cursor-pointer">
                 Home
               </li>
@@ -84,7 +84,7 @@ const Nav = () => {
               </li>
             </ul>
           ) : (
-            "none"
+            ""
           )}
         </div>
       </div>
